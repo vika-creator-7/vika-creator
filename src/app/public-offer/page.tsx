@@ -1,4 +1,4 @@
-import MainTitle from './main-title'
+import MainTitle from '../../components/main-title'
 
 export default function page() {
 	return (
