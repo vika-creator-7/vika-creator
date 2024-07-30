@@ -1,5 +1,5 @@
 'use client'
-import { cn } from '@/lib/utils'
+
 import { FormEvent, useState } from 'react'
 import { Button } from './ui/button'
 import {
@@ -10,6 +10,7 @@ import {
 	DialogTrigger,
 } from './ui/dialog'
 import { Input } from './ui/input'
+import { cn } from '../lib/utils'
 
 const PAYMENTLINK =
 	'https://secure.wayforpay.com/page?vkh=6692af2d-9988-4372-857a-02cc22d1dba8'

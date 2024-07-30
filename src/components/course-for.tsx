@@ -1,4 +1,4 @@
-import MainTitle from '@/components/main-title'
+import MainTitle from './main-title'
 
 export default function CourseFor() {
 	return (

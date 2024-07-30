@@ -1,5 +1,5 @@
-import MainTitle from '@/components/main-title'
 import Image from 'next/image'
+import MainTitle from './main-title'
 
 export default function AboutMe() {
 	return (

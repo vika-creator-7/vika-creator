@@ -1,4 +1,4 @@
-import MainTitle from '@/components/main-title'
+import MainTitle from './main-title'
 import Image from 'next/image'
 import Link from 'next/link'
 import {

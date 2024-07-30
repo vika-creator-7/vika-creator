@@ -1,6 +1,6 @@
-import MainTitle from '@/components/main-title'
 import { Raleway } from 'next/font/google'
 import Image from 'next/image'
+import MainTitle from './main-title'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -9,7 +9,7 @@ export default function Course() {
 		<section className='bg-white py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container p-0'>
 				<MainTitle
-					text='Цей курс – допоміг багатьом експертам'
+					text='Цей курс – допоможе тобі'
 					className='text-black text-center mb-[30px]'
 				/>
 

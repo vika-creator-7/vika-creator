@@ -1,5 +1,5 @@
-import { MediaLinks } from '@/components/media-links'
 import Link from 'next/link'
+import { MediaLinks } from './media-links'
 
 export default function Footer() {
 	return (
@@ -11,10 +11,18 @@ export default function Footer() {
 				</div>
 
 				<div className='flex flex-col'>
-					<Link className='text-[20px] text-center mt-[10px] lg:mt-0' href='/privacy-policy' target='_blank'>
+					<Link
+						className='text-[20px] text-center mt-[10px] lg:mt-0'
+						href='/privacy-policy'
+						target='_blank'
+					>
 						Політика конфіденційності
 					</Link>
-					<Link className='text-[20px] text-center lg:text-start' href='/public-offer' target='_blank'>
+					<Link
+						className='text-[20px] text-center lg:text-start'
+						href='/public-offer'
+						target='_blank'
+					>
 						Публічна оферта
 					</Link>
 				</div>

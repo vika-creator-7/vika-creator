@@ -1,4 +1,4 @@
-import MainTitle from '@/components/main-title'
+import MainTitle from './main-title'
 
 import {
 	Accordion,
@@ -62,8 +62,10 @@ function AccordionItemCustom({
 }: AccordionItemCustomProps) {
 	return (
 		<AccordionItem value={value} className='md:mb-[30px] mb-[15px] '>
-			<AccordionTrigger className='text-[20px] md:text-[24px] xl:text-[30px] rounded-3xl bg-[#50584b] font-bold text-left px-[20px]
-			h-[180px] md:h-[120px] xl:h-[140px] text-white leading-[24px] md:leading-normal'>
+			<AccordionTrigger
+				className='text-[20px] md:text-[24px] xl:text-[30px] rounded-3xl bg-[#50584b] font-bold text-left px-[20px]
+			h-[180px] md:h-[120px] xl:h-[140px] text-white leading-[24px] md:leading-normal'
+			>
 				{title}
 			</AccordionTrigger>
 			<AccordionContent className='xl:text-[25px] text-[18px] md:text-[20px] p-[20px] leading-normal text-[#e1a421] italic font-bold'>

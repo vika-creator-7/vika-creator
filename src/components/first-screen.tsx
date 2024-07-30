@@ -1,6 +1,6 @@
-import MainTitle from '@/components/main-title'
 import Image from 'next/image'
 import ByCourseBtn from './by-course-btn'
+import MainTitle from './main-title'
 
 export default function FirstScreen() {
 	return (
@@ -16,7 +16,7 @@ export default function FirstScreen() {
 			</div>
 			<div className='lg:w-[650px] xl:w-[800px] justify-end text-white order-1 lg:order-none '>
 				<div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
-					Старт 1 серпня
+					Старт 10 серпня
 				</div>
 				<MainTitle text='Експрес курс:' className='text-[#E1A421] mb-[10px]' />
 				<h2 className='2xl:leading-[52px] leading-[35px] xl:leading-[50px] text-[23px] sm:text-[32px] xl:text-[40px] 2xl:text-[46px] uppercase font-bold'>
@@ -26,7 +26,8 @@ export default function FirstScreen() {
 				<div className='sm:text-[23px] text-[18px] xl:text-[30px] my-[20px] max-w-[500px] xl:max-w-[600px]'>
 					Знайди свої сильні сторони та почни заробляти на них
 				</div>
-				<div className='mt-[30px] xl:mt-[60px] lg:text-[70px] text-[38px] text-[#e1a421] font-bold'>
+				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>1250 грн</s>
+				<div className=' lg:text-[70px] text-[38px] text-[#e1a421] font-bold'>
 					280 грн
 				</div>
 				<ByCourseBtn
@@ -35,8 +36,10 @@ export default function FirstScreen() {
 				/>
 
 				<div className='lg:text-[20px] text-[18px] xl:text-[25px] lg:w-[500px] mt-[40px] mb-[40px] lg:mb-0'>
-					Зареєструйся на курс та отримай 
-					<span className='uppercase text-[#e1a421] font-bold ml-[8px]'>Подарунок!</span>
+					Зареєструйся на курс та отримай
+					<span className='uppercase text-[#e1a421] font-bold ml-[8px]'>
+						Подарунок!
+					</span>
 					<br />
 					Як упаковати блог в Інстаграм з нуля — покроковий гайд
 				</div>

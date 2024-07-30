@@ -1,12 +1,7 @@
-import MainTitle from '@/components/main-title'
-import {
-	Card,
-	CardDescription,
-	CardHeader,
-	CardTitle,
-} from './ui/card'
 import { Raleway } from 'next/font/google'
 import Image from 'next/image'
+import MainTitle from './main-title'
+import { Card, CardDescription, CardHeader, CardTitle } from './ui/card'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -56,7 +51,10 @@ export default function Program() {
 	return (
 		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container p-0'>
-				<MainTitle text='Програма' className='text-center mb-[50px] lg:mb-[100px]' />
+				<MainTitle
+					text='Програма'
+					className='text-center mb-[50px] lg:mb-[100px]'
+				/>
 				<div className='flex justify-evenly flex-wrap '>
 					{cardsItem.map((item, index) => {
 						return (
