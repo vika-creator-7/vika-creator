@@ -7,10 +7,10 @@ export default function FirstScreen() {
 		<section className='lg:relative container pt-[50px] lg:py-[60px] px-[20px] xl:py-[80px] bg-cover bg-no-repeat bg-center flex-col lg:flex-row flex text-white items-center '>
 			<div className='lg:w-[600px] order-2 lg:order-none'>
 				<Image
-					src='/first-screen.png'
-					className='lg:!absolute lg:bottom-0 max-w-[300px] xl:max-w-[400px]'
+					src='/first-screen.jpg'
+					className='max-w-[300px] sm:max-w-[400px] xl:max-w-[500px]'
 					alt='main'
-					width={400}
+					width={500}
 					height={400}
 				/>
 			</div>
@@ -26,7 +26,9 @@ export default function FirstScreen() {
 				<div className='sm:text-[23px] text-[18px] xl:text-[30px] my-[20px] max-w-[500px] xl:max-w-[600px]'>
 					Знайди свої сильні сторони та почни заробляти на них
 				</div>
-				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>1250 грн</s>
+				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>
+					1250 грн
+				</s>
 				<div className=' lg:text-[70px] text-[38px] text-[#e1a421] font-bold'>
 					280 грн
 				</div>
