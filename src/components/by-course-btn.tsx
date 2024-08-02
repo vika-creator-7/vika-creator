@@ -13,7 +13,7 @@ import { Input } from './ui/input'
 import { cn } from '../lib/utils'
 
 const PAYMENTLINK =
-	'https://secure.wayforpay.com/page?vkh=6692af2d-9988-4372-857a-02cc22d1dba8'
+	'https://secure.wayforpay.com/button/b443643b4d2ca'
 
 type ByCourseBtn = {
 	text: string
