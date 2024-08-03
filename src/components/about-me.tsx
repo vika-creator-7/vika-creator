@@ -25,10 +25,10 @@ export default function AboutMe() {
 						<div className='mt-[30px] xl:mt-[60px] text-[18px] lg:text-[23px] 2xl:text-[28px] italic'>
 							Я вирішила допомагати експертам знаходити свій напрямок,
 							реалізовувати таланти та заробляти на цьому.
-							<span className='text-[#E1A421] ml-[6px]'>
+							{/* <span className='text-[#E1A421] ml-[6px]'>
 								До кінця року планую допомогти 1000+ експертам, тому ти можеш
 								розраховувати на свій результат.
-							</span>
+							</span> */}
 						</div>
 					</div>
 					<div className='lg:hidden lg:order-none order-1'>
