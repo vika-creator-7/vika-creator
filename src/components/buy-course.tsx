@@ -22,11 +22,11 @@ export default function BuyCourse() {
 					/>
 				</div>
 				<div className='flex flex-col items-center max-w-[600px]'>
-					<div className='text-center mb-[10px] text-[22px] lg:text-[30px] xl:text-[45px] text-white lg:mt-0 mt-[40px]'>
+					{/* <div className='text-center mb-[10px] text-[22px] lg:text-[30px] xl:text-[45px] text-white lg:mt-0 mt-[40px]'>
 						ДО ЗАКІНЧЕННЯ АКЦІЇ ЗАЛИШИЛОСЬ:
 					</div>
 
-					<Timer />
+					<Timer /> */}
 					<Image
 						src='/by-course-me.jpg'
 						width={300}

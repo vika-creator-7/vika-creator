@@ -15,16 +15,15 @@ export default function FirstScreen() {
 				/>
 			</div>
 			<div className='lg:w-[650px] xl:w-[800px] justify-end text-white order-1 lg:order-none '>
-				<div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
+				{/* <div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
 					Старт 15 серпня
-				</div>
+				</div> */}
 				<MainTitle text='Експрес курс:' className='text-[#E1A421] mb-[10px]' />
 				<h2 className='2xl:leading-[52px] leading-[35px] xl:leading-[50px] text-[23px] sm:text-[32px] xl:text-[40px] 2xl:text-[46px] uppercase font-bold'>
-					ЯК БАГАТОПРОФІЛЬНОМУ ЕКСПЕРТУ ЗНАЙТИ СВІЙ НАПРЯМОК ТА ПОЧАТИ НА ЦЬОМУ
-					ЗАРОБЛЯТИ?
+					ЯК ЕКСПЕРТУ ЗНАЙТИ СВОЇ СИЛЬНІ СТОРОНИ І ПОЧАТИ ЗАРОБЛЯТИ НА НИХ?
 				</h2>
 				<div className='sm:text-[23px] text-[18px] xl:text-[30px] my-[20px] max-w-[500px] xl:max-w-[600px]'>
-					Знайди свої сильні сторони та почни заробляти на них
+					Розкрий потенціал та реалізуй свої мрії за 6 кроків
 				</div>
 				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>
 					1250 грн
